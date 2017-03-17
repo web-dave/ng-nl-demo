@@ -8,7 +8,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "lite": "lite-server"
   },
   "private": true,
   "dependencies": {
@@ -27,6 +28,8 @@
   "devDependencies": {
     "@angular/cli": "1.0.0-rc.2",
     "@angular/compiler-cli": "^2.4.0",
+    "lite-server": "2.3.0",
+    "@angular/service-worker":"^1.0.0-beta.7",
     "@types/jasmine": "2.5.38",
     "@types/node": "~6.0.60",
     "codelyzer": "~2.0.0",
